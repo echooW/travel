@@ -32,13 +32,13 @@ function two(a) { //加载函数
 	}
 	wra.style.top = (now * 100) + 'vh';
 		var now1 = Math.abs(now);
+		console.log(now1)
 		for(var i = 0, len = obj.length; i <= len - 1; i++) {
+			obj[i].className = '';
+			on[i].className = '';
 			if(i == now1) {
 				obj[i].className = 'active';
 				on[i].className = 'blue';
-			} else {
-				obj[i].className = '';
-				on[i].className = '';
 			}
 		}
 }
