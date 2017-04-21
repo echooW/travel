@@ -25,8 +25,8 @@ function one() { //滚轮开关
 
 function two(a) { //加载函数
 	now += a
-	if(now < -5) {
-		now = -5
+	if(now < -6) {
+		now = -6
 	} else if(now > 0) {
 		now = 0
 	}
@@ -53,6 +53,49 @@ function two(a) { //加载函数
 				document.querySelector(".wrapper>ul>li:nth-child(1)>.text2").style.animation='txt2_1 0.3s linear both';
 				document.querySelector(".wrapper>ul>li:nth-child(1)>.text3").style.animation='txt3_1 0.3s linear both';
 				document.querySelector(".wrapper>ul>li:nth-child(1)>.feiji").style.animation='feiji_1 0.3s linear both';
+			}
+			if(i==1){
+				document.querySelector(".wrapper>ul>li:nth-child(2)>.tit_1").style.animation='tit_1 0.8s linear both';
+				document.querySelector(".wrapper>ul>li:nth-child(2)>.tit_2").style.animation='tit_2 0.8s linear both 0.5s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate>.rotateNode:nth-child(1)").style.animation='rotate 1s linear both 0.8s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate_txt>p:nth-child(1)").style.animation='rotate 1s linear both 0.8s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.gang>.gangN:nth-child(1)").style.animation='rotate 1s linear both 0.8s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate>.rotateNode:nth-child(2)").style.animation='rotate 1s linear both 1.1s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate_txt>p:nth-child(2)").style.animation='rotate 1s linear both 1.1s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.gang>.gangN:nth-child(2)").style.animation='rotate 1s linear both 1.1s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate>.rotateNode:nth-child(3)").style.animation='rotate 1s linear both 1.4s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate_txt>p:nth-child(3)").style.animation='rotate 1s linear both 1.4s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.gang>.gangN:nth-child(3)").style.animation='rotate 1s linear both 1.4s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate>.rotateNode:nth-child(4)").style.animation='rotate 1s linear both 1.7s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate_txt>p:nth-child(4)").style.animation='rotate 1s linear both 1.7s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.gang>.gangN:nth-child(4)").style.animation='rotate 1s linear both 1.7s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate>.rotateNode:nth-child(5)").style.animation='rotate 1s linear both 2s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate_txt>p:nth-child(5)").style.animation='rotate 1s linear both 2s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.gang>.gangN:nth-child(5)").style.animation='rotate 1s linear both 2s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.msg>.msg_img>p").style.animation='rotate 1s linear both 2s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.msg>.msg_img>span").style.animation='rotate 1s linear both 2s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.msg>.msg_txt").style.animation='msg_txt 1s linear both 2s';
+			}else{
+				document.querySelector(".wrapper>ul>li:nth-child(2)>.tit_1").style.animation='tit_1_2 0.6s linear both';
+				document.querySelector(".wrapper>ul>li:nth-child(2)>.tit_2").style.animation='tit_2_2 0.6s linear both 0.3s';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate>.rotateNode:nth-child(1)").style.animation='rotate_2 0.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate_txt>p:nth-child(1)").style.animation='rotate_2 0.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(2)>.gang>.gangN:nth-child(1)").style.animation='rotate_2 0.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate>.rotateNode:nth-child(2)").style.animation='rotate_2 0.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate_txt>p:nth-child(2)").style.animation='rotate_2 0.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(2)>.gang>.gangN:nth-child(2)").style.animation='rotate_2 0.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate>.rotateNode:nth-child(3)").style.animation='rotate_2 0.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate_txt>p:nth-child(3)").style.animation='rotate_2 0.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(2)>.gang>.gangN:nth-child(3)").style.animation='rotate_2 0.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate>.rotateNode:nth-child(4)").style.animation='rotate_2 0.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate_txt>p:nth-child(4)").style.animation='rotate_2 0.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(2)>.gang>.gangN:nth-child(4)").style.animation='rotate_2 0.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate>.rotateNode:nth-child(5)").style.animation='rotate_2 0.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(2)>.rotate_txt>p:nth-child(5)").style.animation='rotate_2 0.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(2)>.gang>.gangN:nth-child(5)").style.animation='rotate_2 0.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(2)>.msg>.msg_img>p").style.animation='rotate_2 1s linear both';
+				document.querySelector(".wrapper ul li:nth-child(2)>.msg>.msg_img>span").style.animation='rotate_2 1s linear both';
+				document.querySelector(".wrapper ul li:nth-child(2)>.msg>.msg_txt").style.animation='msg_txt_2 1s linear both';
 			}
 		}
 	}
