@@ -1,6 +1,0 @@
-{
-data0 : "<div class='one'>这是1111111111标签</div>",
-data1 : "<div class='one'>这是222222222标签</div>",
-data2 : "<div class='one'>这是3333333333标签</div>",
-data3 : "<div class='one'>这是4444444标签</div>"
-}
