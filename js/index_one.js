@@ -172,6 +172,30 @@ function two(a) { //加载函数
 				document.querySelector(".wrapper ul li:nth-child(5)>.images>div:nth-child(12)").style.animation='picOpa_2 0.8s linear both';
 				
 			}
+			if(i==5){
+				document.querySelector(".wrapper ul li:nth-child(6)>.text_1").style.animation='text_1 1s linear both';
+				document.querySelector(".wrapper ul li:nth-child(6)>.text_2").style.animation='text_5 0.8s linear both 0.8s';
+				document.querySelector(".wrapper ul li:nth-child(6)>.text_3").style.animation='text_6 0.8s linear both 1.3s';
+				document.querySelector(".wrapper ul li:nth-child(6)>.bg_6").style.animation='picOpa 1s linear both 1.8s';
+				document.querySelector(".wrapper ul li:nth-child(6)>.gift").style.animation='picOpa 1s linear both 2.8s';
+			}else{
+				document.querySelector(".wrapper ul li:nth-child(6)>.text_1").style.animation='text_1_2 0.8s linear both';
+				document.querySelector(".wrapper ul li:nth-child(6)>.text_2").style.animation='text_5_2 0.8s linear both';
+				document.querySelector(".wrapper ul li:nth-child(6)>.text_3").style.animation='text_6_2 0.8s linear both';
+				document.querySelector(".wrapper ul li:nth-child(6)>.bg_6").style.animation='picOpa_2 0.8s linear both';
+				document.querySelector(".wrapper ul li:nth-child(6)>.gift").style.animation='picOpa_2 0.8s linear both';
+			}
+			if(i==6){
+				document.querySelector(".wrapper ul li:nth-child(7)>.text_1").style.animation='text_1 1.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(7)>.text_2").style.animation='text_7 1s linear both 1s';
+				document.querySelector(".wrapper ul li:nth-child(7)>.text_3").style.animation='text_8 1s linear both 1.8s';
+				document.querySelector(".wrapper ul li:nth-child(7)>.dress").style.animation='picOpa 1s linear both 2.5s';
+			}else{
+				document.querySelector(".wrapper ul li:nth-child(7)>.text_1").style.animation='text_1_2 0.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(7)>.text_2").style.animation='text_7_2 0.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(7)>.text_3").style.animation='text_8_2 0.5s linear both';
+				document.querySelector(".wrapper ul li:nth-child(7)>.dress").style.animation='picOpa_2 0.5s linear both 2.5s';
+			}
 		}
 	}
 }
@@ -223,3 +247,34 @@ document.querySelector(".wrapper ul li:nth-child(4)>.foot>div:nth-child(5)").sty
 document.querySelector(".wrapper ul li:nth-child(4)>.foot>div:nth-child(2)").style.animation="4s opa infinite 2s";
 document.querySelector(".wrapper ul li:nth-child(4)>.foot>div:nth-child(4)").style.animation="4s opa infinite 2s";
 document.querySelector(".wrapper ul li:nth-child(4)>.foot>div:nth-child(6)").style.animation="4s opa infinite 2s";
+
+
+
+var gift=document.querySelectorAll(".wrapper ul li:nth-child(6)>.gift>.giftNode>.img");
+//alert(rotate.length)
+for(let i=0;i<gift.length;i++){
+	gift[i].onmouseover=function(){
+		for(let j=0;j<gift.length;j++){
+			gift[j].onmouseout=function(){
+				this.style.animation="";
+			}
+		}
+		this.style.animation="1s rotateNode linear both";
+	}
+}
+
+
+
+document.querySelector(".wrapper ul li:nth-child(7)>.map>div:nth-child(1)").style.animation="4s opa infinite";
+document.querySelector(".wrapper ul li:nth-child(7)>.map>div:nth-child(2)").style.animation="4s opa infinite 0.5s";
+document.querySelector(".wrapper ul li:nth-child(7)>.map>div:nth-child(3)").style.animation="4s opa infinite 3s";
+document.querySelector(".wrapper ul li:nth-child(7)>.map>div:nth-child(4)").style.animation="4s opa infinite 1.5s";
+document.querySelector(".wrapper ul li:nth-child(7)>.map>div:nth-child(5)").style.animation="4s opa infinite 0.5s";
+document.querySelector(".wrapper ul li:nth-child(7)>.map>div:nth-child(6)").style.animation="4s opa infinite 2.5s";
+document.querySelector(".wrapper ul li:nth-child(7)>.map>div:nth-child(7)").style.animation="4s opa infinite";
+document.querySelector(".wrapper ul li:nth-child(7)>.map>div:nth-child(8)").style.animation="4s opa infinite 3.5s";
+document.querySelector(".wrapper ul li:nth-child(7)>.map>div:nth-child(9)").style.animation="4s opa infinite 2s";
+
+
+
+
